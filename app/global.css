@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  outline: none !important; /* Убираем все аутлайны */
+  border-radius: 0 !important; /* Никаких скруглений */
+}
+
+body {
+  background-color: #424242;
+  color: white;
+  margin: 0;
+  font-family: monospace;
+}
